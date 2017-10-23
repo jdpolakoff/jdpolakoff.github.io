@@ -83,7 +83,7 @@ canvas {
 
 .nothercontain {
   height: 100vh;
-  width: 80vw;
+  width: 90vw;
   right: 0;
   float: right;
   position: absolute;
@@ -148,6 +148,32 @@ canvas {
 
 .hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
   left: 0;
+}
+
+.projects {
+  float: left;
+  min-height: 50%;
+  width: 80%;
+  border: 2px solid black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 30%;
+  position: absolute;
+  margin: auto;
+}
+
+.aboutme {
+  height: 80%;
+  width: 80%;
+  padding: 2%;
+  border: 2px solid black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
 }
 
 @media only screen and (max-width: 700px) {

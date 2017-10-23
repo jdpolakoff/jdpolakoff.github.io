@@ -18,3 +18,17 @@ $(".tog").click(function(){
 $('#bigtopic').click(function(){
   $('.subtopic').toggle()
 })
+
+$(document).ready(function(){
+  $('.ga').slick({
+    dots: true
+  })
+})
+
+$('#web').click(function(){
+  $('img', '.tog').toggle();
+  $('.nothercontain').toggle()
+  $('.navmenu').toggle()
+  $('.ga').css('visibility', 'visible')
+  $('.welcome').hide()
+})

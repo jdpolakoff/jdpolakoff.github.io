@@ -15,8 +15,6 @@ $(".tog").click(function(){
 //     $('.xx').hide()
 //   })
 
-$('topics').hover(function(){
-  $(this).animate({
-    'border-bottom': '2px solid black'
-  }, 500)
+$('#bigtopic').click(function(){
+  $('.subtopic').toggle()
 })

@@ -106,10 +106,17 @@ canvas {
   color: black;
 }
 
-#topic {
-  margin-bottom: 10px;
+#bigtopic {
+  margin-top: 20%;
 }
 
+.subtopic {
+  display: none
+}
+
+#topic {
+  font-size: 20px
+}
 /* Underline From Right */
 /*source; https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 .hvr-underline-from-right {
@@ -130,7 +137,7 @@ canvas {
   right: 0;
   bottom: 0;
   background: black;
-  height: 5px;
+  height: 2px;
   -webkit-transition-property: left;
   transition-property: left;
   -webkit-transition-duration: 0.5s;

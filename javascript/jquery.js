@@ -10,6 +10,19 @@ $(".tog").click(function(){
   $('.nothercontain').toggle()
   $('.navmenu').toggle()
 })
+
+
+$('.threebars').click(function(){
+    $('.particles').addClass('filter')
+})
+
+// if (!$('.welcome').hide) {
+// $('.xx').click(function(){
+//   $('.particles').removeClass('filter')
+// })
+// }
+
+
 // $('.xx').click(function() {
 //     $('.navmenu').hide()
 //     $('.xx').hide()
@@ -24,6 +37,11 @@ $(document).ready(function(){
     dots: true
   })
 })
+
+var genAssem = $('.ga').css('visibility')
+if ($('genAssem') === 'visible') {
+  $('.particles').addClass('filter')
+}
 
 $('#web').click(function(){
   $('img', '.tog').toggle();

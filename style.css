@@ -10,17 +10,26 @@ body {
 
 }
 
-canvas {
+/*canvas {
   display: block;
   vertical-align: bottom;
-}
+}*/
 
-#particles-js {
+#particles-js, canvas, .particles {
   position: fixed;
   width: 100%;
   height: 100%;
-  /*background-color: blue;*/
   background-image: url("https://static.pexels.com/photos/416974/pexels-photo-416974.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.filter {
+  filter: blur(2px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -84,7 +93,7 @@ canvas {
 
 .nothercontain {
   height: 100vh;
-  width: 95vw;
+  width: 30vw;
   right: 0;
   float: right;
   position: absolute;
@@ -103,8 +112,9 @@ canvas {
 
 .categories {
   font-size: 18px;
-  float: right;
   color: black;
+  text-align: center;
+  margin-top: 15%
 }
 
 #bigtopic {
@@ -162,6 +172,7 @@ canvas {
   right: 30%;
   position: absolute;
   margin: auto;
+  display: none
 }
 
 .aboutme {
@@ -179,19 +190,40 @@ canvas {
 }
 
 .ga {
-  height: 80%;
+  min-height: 90%;
   width: 70%;
   padding: 2%;
   border: 2px solid black;
-  top: 0;
+  top: 5%;
   bottom: 0;
   left: 0;
   right: 0;
   position: absolute;
   margin: auto;
-  visibility: hidden
+  visibility: hidden;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  background-color: rgba(117, 120, 113, 0.4);
 }
 
+.ga a {
+  color: white
+}
+
+a {
+  text-decoration: underline;
+}
+
+.gif {
+  height: 250px;
+  margin: 0 auto;
+  border: 2px solid black
+}
+
+.proj {
+  font-size: 34px
+}
 
 @media only screen and (max-width: 700px) {
   .homecontain {

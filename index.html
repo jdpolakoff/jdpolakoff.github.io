@@ -11,11 +11,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.js"></script>
   </head>
   <body>
-    <div id="particles-js">
-        <span class="tog">
-          <img class="threebars" src="./images/menu.png">
-          <img class="xx" src="./images/xx.png"/>
-        </span>
+    <div id="particles-js" class="particles">
+        <div class="homecontain">
+          <h3 class="welcome">Hi, I'm Jonathan Polakoff, a <br>
+            <span class="typer" id="main" data-words="full-stack web developer,data visualizer,journalist" data-colors="white" data-delay="40" data-deleteDelay="1200"></span>
+            <span class="cursor" data-owner="main"></span><br>
+          </h3>
+        </div>
+      </div>
+      <span class="tog">
+        <img class="threebars" src="./images/menu.png">
+        <img class="xx" src="./images/xx.png"/>
+      </span>
+      <div class="ga">
+          <div class="descriptionmuseo">
+            <a href="https://jdpolakoff.github.io/museogramFrontEnd/#/museums/1" target="_blank"><img class="gif" src="images/museogramgif.gif"></a>
+            <p><a href="https://jdpolakoff.github.io/museogramFrontEnd/#/museums/1" target="_blank"><span class="proj">Museogram</span></a> is a full-stack educational application that displays thousands of artworks in the Metropolitan Museum of Art's open-sourced collection.<br><br>Museogram was developed in tandem with two other developers, using Git for version control.<br><br>TECHNOLOGIES: AngularJS, Rails, Metropolitan Museum of Art API, Masonry for AngularJS, Git.<br><br><a href="https://github.com/jdpolakoff/museogramFrontEnd" target="_blank">Github (front end)</a><br><br><a href="https://github.com/jdpolakoff/museogramBackEnd" target="_blank">Github (back end) </a></p>
+          </div>
+          <div class="descriptionfish">
+            <a href="http://fishwrap.herokuapp.com" target="_blank"><img class="gif" src="images/fishwrapgif.gif"></a>
+            <p><a href="http://fishwrap.herokuapp.com" target="_blank"><span class="proj">Fishwrap</span></a> is a front-end news briefing application that pulls headlines from hundreds of news sites. Swipe through stories with a "Tinder"-like carousel.<br><br>NOTE: This project is in beta mode and only currently accessible through http protocal, which causes some unreliability on page refreshes. If you get a 404 error, please navigate to the homepage <a href="http://fishwrap.herokuapp.com">(http://fishwrap.herokuapp.com)</a> and try to reach your desired page again. After a production-level release of the next version of the API, the site will be fully launched and available through https protocal.<br><br>TECHNOLOGIES: React, jQuery, News API, Git.
+              <br><br><a href="https://github.com/jdpolakoff/fishwrap" target="_blank">Github</a></p>
+            </div>
+          <div class="descriptionprompt">
+            <a href="https://prompt-ly.herokuapp.com/" target="_blank"><img class="gif" src="images/promptlygif.gif" target="_blank"></a>
+            <p><a href="https://prompt-ly.herokuapp.com/" target="_blank"><span class="proj">Prompt.ly</span></a> is a full-stack writing prompt application providing a forum for writers to get inspired. App features a Reddit-like upvote system.<br><br> TECHNOLOGIES: Ruby on Rails, Git.<br><br><a href="https://github.com/jdpolakoff/prompt.ly" target="_blank">Github</a></p>
+          </div>
+          <div class="descriptionhangman">
+            <a href="https://jdpolakoff.github.io/hangmangame/" target="_blank">
+              <img class="gif" src="images/hangmangif2.gif">
+            </a>
+            <p><a href="https://jdpolakoff.github.io/hangmangame/" target="_blank"><span class="proj">Hangman 2.0</span></a> is a modern, jQuery-enabled take on the classic pen and paper game "Hangman." Game is 2-player, with one player entering a word and the other guessing by selecting letters from the letter bank.<br><br>TECHNOLOGIES: HTML5, CSS3, jQuery, Git.<br><br><a href="https://github.com/jdpolakoff/hangmangame" target="_blank">Github</a></p>
+          </div>
+      </div>
         <div class="nothercontain">
           <div class="projects">
             <div class="aboutme">
@@ -37,26 +65,6 @@
             </div>
           </div>
         </div>
-      <div class="homecontain">
-      <h3 class="welcome">Hi, I'm Jonathan Polakoff, a <br>
-        <span class="typer" id="main" data-words="full-stack web developer,data visualizer,journalist" data-colors="white" data-delay="40" data-deleteDelay="1200"></span>
-        <span class="cursor" data-owner="main"></span><br>
-      </h3>
-      <div class="ga">
-        <div>
-          <p>slide1</p>
-        </div>
-        <div>
-          <p>slide2</p>
-        </div>
-        <div>
-          <p>slide3</p>
-        </div>
-        <div>
-          <p>slide4</p>
-        </div>
-      </div>
-    </div>
     <script src="./javascript/particles.js"></script>
     <script src="./javascript/particleconfig.js"></script>
     <script src="./javascript/typer.js"></script>

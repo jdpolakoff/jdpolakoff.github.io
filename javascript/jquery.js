@@ -5,6 +5,9 @@
 //     // $('.xx').show()
 //   })
 
+var filter = false
+
+
 $(".tog").click(function(){
   $('img', this).toggle();
   $('.nothercontain').toggle()
@@ -12,15 +15,14 @@ $(".tog").click(function(){
 })
 
 
-$('.threebars').click(function(){
-    $('.particles').addClass('filter')
-})
+// $('.threebars').click(function(){
+//   $('.particles').addClass('filter')
+// })
 
-// if (!$('.welcome').hide) {
 // $('.xx').click(function(){
 //   $('.particles').removeClass('filter')
 // })
-// }
+
 
 
 // $('.xx').click(function() {
@@ -38,15 +40,23 @@ $(document).ready(function(){
   })
 })
 
-var genAssem = $('.ga').css('visibility')
-if ($('genAssem') === 'visible') {
-  $('.particles').addClass('filter')
-}
 
 $('#web').click(function(){
   $('img', '.tog').toggle();
   $('.nothercontain').toggle()
   $('.navmenu').toggle()
+  $('.particles').addClass('filter')
   $('.ga').css('visibility', 'visible')
   $('.welcome').hide()
+  $('.journalism').hide()
+})
+
+$('#journalism').click(function(){
+  $('img', '.tog').toggle();
+  $('.nothercontain').toggle()
+  $('.particles').addClass('filter')
+  $('.navmenu').toggle()
+  $('.welcome').hide()
+  $('.ga').css('visibility', 'hidden')
+  $('.journalism').show()
 })

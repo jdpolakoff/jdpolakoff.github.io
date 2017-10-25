@@ -15,6 +15,11 @@ body {
   vertical-align: bottom;
 }*/
 
+a {
+  text-decoration: none
+}
+
+
 #particles-js, canvas, .particles {
   position: fixed;
   width: 100%;
@@ -142,9 +147,13 @@ body {
 }
 
 .story {
-  height: 203px;
+  height: 200px;
   margin: 0 auto;
   border: 2px solid black;
+}
+
+.story:hover{
+  border: 2px solid rgba(232, 126, 4, 0.8)
 }
 
 .story:hover {
@@ -161,9 +170,51 @@ body {
   margin: 0 auto
 }
 
+
 .proj a {
   text-decoration: none
 }
+
+/* Push */
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
 
 /* Underline From Right */
 /*source; https://github.com/IanLunn/Hover/blob/master/css/hover.css */
@@ -235,8 +286,8 @@ body {
 }
 
 .aboutme {
-  min-height: 45%;
-  width: 60%;
+  min-height: 90%;
+  width: 70%;
   padding: 2%;
   border: 2px solid black;
   top: 0;
@@ -324,6 +375,10 @@ body {
   border: 2px solid black;
 }
 
+.gis img:hover{
+    border: 2px solid rgba(232, 126, 4, 0.8)
+}
+
 
 .ga a {
   color: white
@@ -337,6 +392,10 @@ a {
   height: 250px;
   margin: 0 auto;
   border: 2px solid black
+}
+
+.gif:hover {
+    border: 2px solid rgba(232, 126, 4, 0.8)
 }
 
 .proj {

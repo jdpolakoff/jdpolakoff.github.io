@@ -375,10 +375,6 @@ a {
   border: 2px solid black;
 }
 
-.gis img:hover{
-    border: 2px solid rgba(232, 126, 4, 0.8)
-}
-
 
 .ga a {
   color: white
@@ -394,9 +390,6 @@ a {
   border: 2px solid black
 }
 
-.gif:hover {
-    border: 2px solid rgba(232, 126, 4, 0.8)
-}
 
 .proj {
   font-size: 34px

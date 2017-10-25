@@ -14,8 +14,6 @@ $(document).ready(function(){
 
 $(".tog").click(function(){
   $('img', this).toggle();
-  $('.nothercontain').toggle()
-  $('.navmenu').toggle()
 })
 
 
@@ -25,14 +23,15 @@ $('.threebars').click(function(){
   $('.gis').hide()
   $('.aboutme').hide()
   $('.ga').css('visibility', 'hidden')
+  $('.nothercontain').fadeIn(400)
+  $('.navmenu').fadeIn(400)
   // $('.particles').addClass('filter')
 })
 
-// if ($('.welcome').css('display') !== 'none'){
-//   $('.xx').click(function(){
-//     $('.particles').removeClass('filter')
-//   })
-// }
+  $('.xx').click(function(){
+    $('.nothercontain').hide()
+    $('.navmenu').hide()
+  })
 
 $('#bigtopic').click(function() {
   $('.subtopic').toggle()
@@ -59,7 +58,7 @@ $('#bigtopic').click(function() {
     $('.gis').hide()
     $('.welcome').hide()
 
-    $('.aboutme').show()
+    $('.aboutme').fadeIn(300)
   })
 
 
@@ -73,7 +72,9 @@ $('#web').click(function(){
   $('.journalism').hide()
   $('.gis').hide()
   $('.aboutme').hide()
-  $('.ga').css('visibility', 'visible')
+  $('.ga').animate({opacity: 1}, 'fast', function(){
+    $('.ga').css('visibility', 'visible')
+  })
 })
 
 $('#journalism').click(function(){
@@ -86,7 +87,7 @@ $('#journalism').click(function(){
   $('.welcome').hide()
   $('.gis').hide()
   $('.aboutme').hide()
-  $('.journalism').show()
+  $('.journalism').fadeIn(300)
 })
 
 $('#gis').click(function(){
@@ -99,7 +100,7 @@ $('#gis').click(function(){
   $('.ga').css('visibility', 'hidden')
   $('.journalism').hide()
   $('.aboutme').hide()
-  $('.gis').show()
+  $('.gis').fadeIn(300)
 })
 
 $('#home').click(function(){
@@ -112,5 +113,5 @@ $('#home').click(function(){
   $('.journalism').hide()
   $('.aboutme').hide()
   $('.gis').hide()
-  $('.welcome').show()
+  $('.welcome').fadeIn(300)
 })

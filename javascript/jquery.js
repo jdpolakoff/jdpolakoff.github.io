@@ -8,7 +8,7 @@ $(document).ready(function(){
   $('.ga').slick({
     dots: true,
   })
-  $('.welcome').show()
+  $('.welcome').fadeIn(1500)
 })
 
 

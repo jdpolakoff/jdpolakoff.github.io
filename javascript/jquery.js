@@ -25,12 +25,13 @@ $('.threebars').click(function(){
   $('.ga').css('visibility', 'hidden')
   $('.nothercontain').fadeIn(400)
   $('.navmenu').fadeIn(400)
-  // $('.particles').addClass('filter')
+  $('.particles').addClass('filter')
 })
 
   $('.xx').click(function(){
     $('.nothercontain').hide()
     $('.navmenu').hide()
+    $('.particles').removeClass('filter')
   })
 
 $('#bigtopic').click(function() {

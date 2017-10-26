@@ -4,6 +4,8 @@
 //     $('threebars').attr('src',"images/xx.png");
 //     // $('.xx').show()
 //   })
+var shake
+
 $(document).ready(function(){
   $('.ga').slick({
     dots: true,
@@ -16,8 +18,17 @@ $(".tog").click(function(){
   $('img', this).toggle();
 })
 
+$('.xx').click(function(){
+  $('.nothercontain').hide()
+  $('.navmenu').hide()
+  $('.particles').removeClass('filter')
+  shake = setInterval(function(){
+    $('.threebars').effect('shake')
+  }, 2000)
+})
 
 $('.threebars').click(function(){
+  window.clearInterval(shake)
   $('.welcome').hide()
   $('.journalism').hide()
   $('.gis').hide()
@@ -28,11 +39,6 @@ $('.threebars').click(function(){
   $('.particles').addClass('filter')
 })
 
-  $('.xx').click(function(){
-    $('.nothercontain').hide()
-    $('.navmenu').hide()
-    $('.particles').removeClass('filter')
-  })
 
 $('#bigtopic').click(function() {
   $('.subtopic').toggle()

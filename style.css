@@ -142,6 +142,10 @@ a {
   color: white
 }
 
+.tog {
+  display:block
+}
+
 #topic {
   font-size: 20px
 }

@@ -24,7 +24,7 @@ $('.xx').click(function(){
   $('.particles').removeClass('filter')
   shake = setInterval(function(){
     $('.threebars').effect('shake', 300)
-  }, 5000)
+  }, 3500)
 })
 
 $('.threebars').click(function(){

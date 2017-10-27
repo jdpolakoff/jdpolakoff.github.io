@@ -23,8 +23,8 @@ $('.xx').click(function(){
   $('.navmenu').hide()
   $('.particles').removeClass('filter')
   shake = setInterval(function(){
-    $('.threebars').effect('shake')
-  }, 2000)
+    $('.threebars').effect('shake', 200)
+  }, 5000)
 })
 
 $('.threebars').click(function(){

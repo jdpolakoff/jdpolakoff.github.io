@@ -269,6 +269,7 @@ a {
   font-size: 23px;
   color: white;
   background-color: rgba(117, 120, 113, 0.4);
+  /*overflow-y: auto*/
 }
 
 .journalism {
@@ -287,6 +288,7 @@ a {
   font-size: 23px;
   color: white;
   background-color: rgba(117, 120, 113, 0.4);
+  overflow-y: auto
 }
 
 .aboutme {
@@ -305,6 +307,7 @@ a {
   font-size: 23px;
   color: white;
   background-color: rgba(117, 120, 113, 0.4);
+  overflow-y: auto
 }
 
 .logos {
@@ -372,6 +375,8 @@ a {
   font-size: 23px;
   color: white;
   background-color: rgba(117, 120, 113, 0.4);
+  overflow-y: auto
+
 }
 
 .gis img {

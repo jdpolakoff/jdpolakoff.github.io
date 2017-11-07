@@ -43,7 +43,7 @@ $('.threebars').click(function(){
 $('#bigtopic').click(function() {
   $('.subtopic').toggle()
   $(this).text(function(i, v) {
-    return v === 'Projects +' ? 'Projects -' : 'Projects +'
+    return v === '+ Projects' ? '- Projects' : '+ Projects'
   })
 })
 

@@ -412,6 +412,7 @@ a {
 
 @media only screen and (max-width: 668px) {
   .ga, .journalism, .gis, .aboutme {
-    height: 50%
+    height: 50%;
+    width: 90%
   }
 }

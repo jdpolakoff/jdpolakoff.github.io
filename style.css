@@ -419,8 +419,8 @@ a {
   .copyright{
     display: none
   }
-  .tog {
-    position: fixed
+  .nothercontain {
+    overflow-y: hidden;
   }
 }
 

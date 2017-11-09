@@ -11,6 +11,7 @@ $(document).ready(function(){
     dots: true,
   })
   $('.welcome').fadeIn(1500)
+  $('.tog').delay(1500).fadeIn(500)
 })
 
 

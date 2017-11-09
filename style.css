@@ -415,8 +415,8 @@ a {
   .homecontain {
     width: 300px
   }
-  .nothercontain{
-    overflow-y: auto
+  .copyright{
+    display: none
   }
 }
 

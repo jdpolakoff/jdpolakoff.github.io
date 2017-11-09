@@ -415,6 +415,9 @@ a {
   .homecontain {
     width: 300px
   }
+  .nothercontain{
+    overflow-y: auto
+  }
 }
 
 @media only screen and (max-width: 668px) {

@@ -419,8 +419,8 @@ a {
   .copyright{
     display: none
   }
-  body {
-    overflow-y: auto
+  .tog {
+    position: fixed
   }
 }
 

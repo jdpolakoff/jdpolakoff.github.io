@@ -419,6 +419,9 @@ a {
   .copyright{
     display: none
   }
+  body {
+    overflow-y: auto
+  }
 }
 
 @media only screen and (max-width: 668px) {

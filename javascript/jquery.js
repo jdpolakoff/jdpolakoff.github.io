@@ -7,6 +7,7 @@
 var shake
 
 $(document).ready(function(){
+  $('.loading').hide()
   $('.ga').slick({
     dots: true,
   })

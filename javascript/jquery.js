@@ -17,7 +17,7 @@ $(document).ready(function(){
   $('canvas').css('background-image', 'url("https://static.pexels.com/photos/416974/pexels-photo-416974.jpeg")')
   $('.welcome').delay(500).fadeIn(1500)
   $('.tog').delay(1500).fadeIn(500)
-  $('.box').delay(1500).fadeIn(500)
+  // $('.box').delay(1500).fadeIn(500)
 })
 
 $(".tog").click(function(){
@@ -145,5 +145,5 @@ $('#home').click(function(){
   $('.aboutme').hide()
   $('.gis').hide()
   $('.welcome').fadeIn(300)
-  $('.box').show()
+  // $('.box').show()
 })

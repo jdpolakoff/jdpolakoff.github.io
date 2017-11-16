@@ -479,12 +479,18 @@ a {
   margin: auto;
 }
 
-@media only screen and (max-width: 700px) {
-  .homecontain {
-    width: 300px
+@media only screen and (max-width: 800px) {
+  .box {
+    display: none
   }
   .copyright{
     display: none
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .homecontain {
+    width: 300px
   }
 }
 

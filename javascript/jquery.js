@@ -14,7 +14,7 @@ $(document).ready(function(){
   $('.ga').slick({
     dots: true,
   })
-  $('canvas').css('background-image', 'url("https://static.pexels.com/photos/416974/pexels-photo-416974.jpeg")')
+  // $('canvas').css('background-image', 'url("https://static.pexels.com/photos/416974/pexels-photo-416974.jpeg")')
   $('.welcome').delay(500).fadeIn(1500)
   $('.tog').delay(1500).fadeIn(500)
   // $('.box').delay(1500).fadeIn(500)

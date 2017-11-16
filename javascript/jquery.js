@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('.ga').slick({
     dots: true,
   })
-  $('.welcome').delay(1500).fadeIn(1500)
+  $('.welcome').delay(500).fadeIn(1500)
   $('.tog').delay(1500).fadeIn(500)
 })
 

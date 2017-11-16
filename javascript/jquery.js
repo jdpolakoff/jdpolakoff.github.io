@@ -60,6 +60,7 @@ $('.threebars').click(function(){
   $('.nothercontain').fadeIn(400)
   $('.navmenu').fadeIn(400)
   $('.particles').addClass('filter')
+  $('.box').hide()
 })
 
 
@@ -144,4 +145,5 @@ $('#home').click(function(){
   $('.aboutme').hide()
   $('.gis').hide()
   $('.welcome').fadeIn(300)
+  $('.box').show()
 })

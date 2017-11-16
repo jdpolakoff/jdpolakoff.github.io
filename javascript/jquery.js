@@ -14,8 +14,10 @@ $(document).ready(function(){
   $('.ga').slick({
     dots: true,
   })
+  $('canvas').css('background-image', 'url("https://static.pexels.com/photos/416974/pexels-photo-416974.jpeg")')
   $('.welcome').delay(500).fadeIn(1500)
   $('.tog').delay(1500).fadeIn(500)
+  $('.box').delay(1500).fadeIn(500)
 })
 
 $(".tog").click(function(){
@@ -30,6 +32,23 @@ $('.xx').click(function(){
     $('.threebars').effect('shake', 300)
   }, 3500)
 })
+
+$('#grass').click(function(){
+  $('canvas').css('background-image', 'url("https://static.pexels.com/photos/416974/pexels-photo-416974.jpeg")')
+})
+
+$('#mountains').click(function(){
+  $('canvas').css('background-image', 'url("https://static.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg")')
+})
+
+$('#sunset').click(function(){
+  $('canvas').css('background-image', 'url("https://static.pexels.com/photos/189349/pexels-photo-189349.jpeg")')
+})
+
+$('#dc').click(function(){
+  $('canvas').css('background-image', 'url("https://static.pexels.com/photos/208702/pexels-photo-208702.jpeg")')
+})
+
 
 $('.threebars').click(function(){
   window.clearInterval(shake)

@@ -11,10 +11,9 @@ $(document).ready(function(){
   $('.ga').slick({
     dots: true,
   })
-  $('.welcome').fadeIn(1500)
+  $('.welcome').delay(1500).fadeIn(1500)
   $('.tog').delay(1500).fadeIn(500)
 })
-
 
 $(".tog").click(function(){
   $('img', this).toggle();

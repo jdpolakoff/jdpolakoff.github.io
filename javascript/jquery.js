@@ -6,6 +6,9 @@
 //   })
 var shake
 
+$(function() {$.initNeon()})
+
+
 $(document).ready(function(){
   $('.loading').hide()
   $('.ga').slick({

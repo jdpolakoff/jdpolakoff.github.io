@@ -466,7 +466,8 @@ a {
   padding-left: 2%;
   position: absolute;
   bottom: 0;
-  left: 0
+  left: 0;
+  display: none
 }
 
 .loading {

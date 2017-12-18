@@ -105,6 +105,7 @@ $('#web').click(function(){
   $('.ga').animate({opacity: 1}, 'fast', function(){
     $('.ga').css('visibility', 'visible')
   })
+  $( window ).resize()
 })
 
 $('#journalism').click(function(){

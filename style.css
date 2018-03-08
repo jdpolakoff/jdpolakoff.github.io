@@ -65,6 +65,10 @@ a {
   z-index: 1
 }
 
+.slick-prev:before, .slick-next:before {
+  font-size: 50px
+}
+
 .bg {
   top: 0;
   bottom: 0;
